@@ -1,0 +1,47 @@
+/*****************************************************
+ * node_modules imports
+ *****************************************************/
+ @import 'node_modules/bootstrap/scss/bootstrap.scss';
+
+ /*****************************************************
+  * project imports
+  *****************************************************/
+ @import 'variables';
+ @import 'mixins';
+ 
+ /*****************************************************
+  * styles
+  *****************************************************/
+ html, body, app-root, app-game {
+ 
+   
+ }
+ 
+ body {
+   background-color: $mainBgColor;
+   color: $mainTextColor;
+ }
+ 
+ .engine-wrapper{
+  
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: -10;
+ 
+
+ 
+   #renderCanvas:focus {
+     outline: none;
+   }
+ }
+ 
+ .ui-wrapper {
+   position: absolute;
+ 
+   * {
+     z-index: 10;
+   }
+ }
+ 
